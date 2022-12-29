@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.hover {
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  border: 4px solid lightskyblue;
+}
+.hover img {
+  display: block;
+  padding: 2px;
+  position: relative;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+.hover:hover img {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
